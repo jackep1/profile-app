@@ -1,31 +1,16 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-      "WuTcIEgi16ZnyUbBEQgctfSMpNG2": {
-        "type": "object",
-        "properties": {
-          "age": { "type": "string" },
-          "image": { "type": "string", "format": "uri" },
-          "location": { "type": "string" },
-          "name": { "type": "string" },
-          "occupation": { "type": "string" }
-        },
-        "required": ["age", "image", "location", "name", "occupation"]
-      },
-      "hQqfX4tYAiQ1GEjgrGNNBSDZMzg2": {
-        "type": "object",
-        "properties": {
-          "age": { "type": "string" },
-          "image": { "type": "string", "format": "uri" },
-          "location": { "type": "string" },
-          "name": { "type": "string" },
-          "occupation": { "type": "string" }
-        },
-        "required": ["age", "image", "location", "name", "occupation"]
-      },
-      "highScore": { "type": "integer" }
-    },
-    "required": ["WuTcIEgi16ZnyUbBEQgctfSMpNG2", "hQqfX4tYAiQ1GEjgrGNNBSDZMzg2", "highScore"]
+  "WuTcIEgi16ZnyUbBEQgctfSMpNG2": {
+    "age": "24",
+    "image": "http://res.cloudinary.com/thunkablecloudinary123/image/upload/v1696463010/l0n7lvlsvaxpbwmooj8s.jpg",
+    "location": "University of Rhode Island",
+    "name": "Jonathan Pincince",
+    "occupation": "Student"
+  },
+  "hQqfX4tYAiQ1GEjgrGNNBSDZMzg2": {
+    "age": "24",
+    "image": "http://res.cloudinary.com/thunkablecloudinary123/image/upload/v1696463202/md9llv7mxqtcatpzjhut.jpg",
+    "location": "Exeter",
+    "name": "Jack Pincince",
+    "occupation": "Referee"
   }
-  
+}

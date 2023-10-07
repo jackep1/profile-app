@@ -29,12 +29,13 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(63, 63, 63, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "StatusBarColor": "rgba(63, 63, 63, 0)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -51,17 +52,18 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(63, 63, 63, 1)"
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "jongram-logo.png",
-                "resizeMode": "contain",
-                "Height": 79,
-                "Width": 90,
+                "Picture": "jongram-logo-brown.png",
+                "resizeMode": "cover",
+                "Height": 77,
+                "Width": 103,
                 "Visible": true,
                 "X": 0,
                 "Y": 0,
@@ -110,7 +112,7 @@
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(215, 215, 227, 1)",
                 "Height": 99,
                 "Width": 305,
                 "Visible": true,
@@ -120,7 +122,7 @@
                 "RelativeY": 458,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(215, 215, 227, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -314,7 +316,7 @@
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(215, 215, 227, 1)",
                 "Height": 26,
                 "Width": 160,
                 "Visible": true,
@@ -324,7 +326,7 @@
                 "RelativeY": 263,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(215, 215, 227, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -475,7 +477,7 @@
                         "FontSize": 18,
                         "CustomFont": "",
                         "LineHeight": 1,
-                        "Color": "rgba(0, 0, 0, 1)",
+                        "Color": "rgba(215, 215, 227, 1)",
                         "TextAlign": "center",
                         "Height": 30,
                         "Width": 162,
@@ -486,7 +488,7 @@
                         "RelativeY": 11,
                         "ResizeMode": "STRETCH",
                         "style": {
-                            "color": "rgba(0, 0, 0, 1)",
+                            "color": "rgba(215, 215, 227, 1)",
                             "fontSize": 18,
                             "fontStyle": "normal",
                             "textShadowOffset": {},
@@ -676,7 +678,7 @@
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(215, 215, 227, 1)",
                 "TextAlign": "center",
                 "Height": 28,
                 "Width": 100,
@@ -687,7 +689,7 @@
                 "RelativeY": 165,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(215, 215, 227, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -743,18 +745,18 @@
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(215, 215, 227, 1)",
                 "TextAlign": "center",
-                "Height": 28,
-                "Width": 129,
+                "Height": 30,
+                "Width": 131,
                 "Visible": true,
-                "X": 23,
-                "Y": 107,
-                "RelativeX": 23,
-                "RelativeY": 107,
+                "X": 24,
+                "Y": 108,
+                "RelativeX": 24,
+                "RelativeY": 108,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(215, 215, 227, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -793,7 +795,7 @@
                 },
                 "ParentId": "2baa16b1-f8e5-4f75-ab71-9591ecbf396a",
                 "position": "absolute",
-                "edgeOffsets": 107,
+                "edgeOffsets": 108,
                 "children": "Email Address:"
             },
             "children": [],
